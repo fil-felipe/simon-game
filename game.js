@@ -54,6 +54,7 @@ function checkAnswer(currentLevel) {
       }, 1000);
     }
   } else {
+    playSound("wrong");
     $("body").addClass("game-over");
     setTimeout(function() {
       $("body").removeClass("game-over")
