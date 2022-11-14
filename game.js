@@ -32,7 +32,7 @@ function nextSequence() {
 }
 
 function playSound(name) {
-  var soundPlay = new Audio("sounds/"+name+".mp3");
+  var soundPlay = new Audio("./sounds/"+name+".mp3");
   soundPlay.play();
 }
 
